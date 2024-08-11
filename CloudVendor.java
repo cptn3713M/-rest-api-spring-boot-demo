@@ -12,6 +12,7 @@ import javax.persistence.Table;
 @ApiModel(description = "This table holds cloud vendor information.")
 public class CloudVendor
 {
+//getter setter and constructre are made there
     @Id
     @ApiModelProperty(notes="This is a Cloud Vendor Id. It shall be unique.")
     private String vendorId;
